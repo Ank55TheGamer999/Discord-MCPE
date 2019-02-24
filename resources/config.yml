@@ -8,16 +8,16 @@
 #               Main options section (below)               #
 ############################################################
 
-webhook_url: ""
+webhook_url: "https://discordapp.com/api/webhooks/548281888671006730/OOGlg7sgYQ95D53wm0eDKn5DbtKfiztvFOPRoxHtRYfU23ShL-UilOBtkaHVx7EzhvFM"
 # Your discord webhook url.
 
-chat_url: "" 
+chat_url: "https://discordapp.com/channels/548198157885112321/548198326223372308" 
 # Webhook url for the /discord command and when somebody chats. Set to 0 to use default.
 
-username: "" 
+username: "DISCORD-MCPE" 
 # The username the plugin uses in discord.
 
-chat_username: "" 
+chat_username: "logs-in-game" 
 # The username of the plugin for /discord and when someone chats. Set to 0 to use default.
 
 chat_format: "[{player}] {message}"
@@ -31,19 +31,19 @@ chat_format: "[{player}] {message}"
 #        Tip: Set any of these to 0 to disable them        #
 ############################################################
 
-start_message: "" 
+start_message: "Server started" 
 # Message sent when server starts.
 
-shutdown_message: "" 
+shutdown_message: "Server has been shutdown by itself or a issue occured." 
 # Message sent when server stops.
 
-join_message: "" 
+join_message: "Player:{player}Rank:{rank} has joined the game" 
 # Message sent when player joins. {player} and {rank} can be used.
 
-quit_message: "" 
+quit_message: "Player:{player}:{rank} has left the game"
 # Message sent when player leaves. {player} and {rank} can be used.
 
-death_message: "" 
+death_message: "User {player} Just died because he couldn't fight or swim" 
 # Message sent when player get killed. {player} and {rank} can be used.
 
 ############################################################
@@ -57,7 +57,7 @@ death_message: ""
 command: true
 # Enable/disable "/discord"
 
-chat_prefix: "!" 
+chat_prefix: "!!" 
 # Prefix for chat. See README.md for more info.
 
 chat: false
@@ -67,7 +67,7 @@ pureperms: false
 # Support for PurePerms rank names. PurePerms ranks use the prefix {rank}.
 # If not enabled, {rank} tags will show as "{rank}".
 
-debug: false
+debug: falsE
 # Show error messages. Set to 1 to enable.
 
 #####################################################
